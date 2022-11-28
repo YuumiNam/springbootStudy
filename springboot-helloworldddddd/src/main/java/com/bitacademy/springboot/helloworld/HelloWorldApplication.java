@@ -35,7 +35,7 @@ public class HelloWorldApplication {
 		// 	ac.close();
 		// }
 		
-		// try ~ wirh ~ resources 구문
+		// try ~ with ~ resources 구문
 		try(ConfigurableApplicationContext ac =  SpringApplication.run(HelloWorldApplication.class, args)){}
 	}
 }
